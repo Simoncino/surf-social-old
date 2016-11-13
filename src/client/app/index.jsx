@@ -3,6 +3,7 @@ import {render} from 'react-dom';
 import axios from 'axios';
 
 import Login from './authentication/Login.jsx';
+import Spot from './spot/Spot.jsx';
 
 class App extends React.Component {
 
@@ -45,6 +46,8 @@ class App extends React.Component {
 				<pre>{JSON.stringify(axiosData)}</pre>
 				<hr/>
 				<Login />
+				<hr/>
+				<Spot />
 			</div>
 
 			);
