@@ -1,4 +1,13 @@
 
+/*****************UTILITY START************************************/
+.clear{
+	clear: both;
+	width: 0.00001em;
+	height:0.00001em;
+}
+/*****************UTILITY END**************************************/
+
+
 .loginFormCss {
 	text-align: center;
 	max-width: 60%;
@@ -8,3 +17,35 @@
 .loginFormCss label{
 	font-weight: bold;
 }
+
+/**********GESTIONE SPOT *************START*/
+.spotCss{
+	margin: 1em;
+	border: 1px solid blue;
+	padding: 0;
+	max-width: 500px;
+}
+
+.spotCss h3{
+	font-size: 1.2em;
+}
+
+.spotCssFoto{
+	float: left;
+	width: 78%;
+}
+.spotCssFoto img{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 32%;
+	max-width: 300px;
+}
+.spotCssMetadati{
+	float: right;
+	width: 20%;
+}
+
+
+/**********GESTIONE SPOT *************END*/

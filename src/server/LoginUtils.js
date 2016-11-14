@@ -8,7 +8,7 @@ var LoginUtils = {
 		  user     : 'ssurf',
 		  password : 'ssurf',
 		  database : 'social_surf',
-		  socketPath: '/Applications/MAMP/tmp/mysql/mysql.sock'
+		  /*socketPath: '/Applications/MAMP/tmp/mysql/mysql.sock'*/
 		});
         connection.connect();
  		var users = null;

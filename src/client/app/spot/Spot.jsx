@@ -12,11 +12,15 @@ class Spot extends React.Component {
 
 	render(){
 		return (
-			<div>
+			<div className="spotCss">
 				<h3>Spot: nome dello spot</h3>
-				<div>Io sono parte riservata alle 3 foto</div>
-				<p>Descrizione: qui ci va pubblica su fb e altre cagate varie</p>
-				<hr/>
+				<div className="spotCssFoto">
+					<img src="http://civitavecchia.portmobility.it/sites/default/files/castello_di_santa_severa_ok.jpg" alt="Santa Severa"/>
+					<img src="https://i.ytimg.com/vi/a7-TMQFJhCw/maxresdefault.jpg" alt="Santa Severa"/>
+					<img src="https://i.ytimg.com/vi/4AL3YKxXwGM/maxresdefault.jpg" alt="Santa Severa"/>
+				</div>
+				<div className="spotCssMetadati">Descrizione: qui ci va pubblica su fb e altre cagate varie</div>
+				<hr className="clear" />
 				<div>
 					<p>Posizione: indirizzo</p>
 					<div>Posizione: cartina</div>
