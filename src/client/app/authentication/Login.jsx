@@ -10,16 +10,13 @@ class Login extends React.Component {
 
 	login(){
 		/*console.log(this.refs);*/
-		console.log("1111");
-
-
 		let user = {
 			"username" : this.refs.user.value,
 			"password" : this.refs.pass.value,
 		}
 
 		var _this = this;
-		axios.post('/login')
+		axios.post('/surf-social/login')
 		.then(function(response){
 			user.data = response.data;
 			console.log("user", user);

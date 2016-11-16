@@ -30,7 +30,7 @@ server.route({
 
 server.route({
     method: 'POST',
-    path:'/login', 
+    path:'/surf-social/login', 
     handler: LoginUtils.login
 });
 
